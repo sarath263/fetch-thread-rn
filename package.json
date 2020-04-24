@@ -1,32 +1,32 @@
 {
-  "name": "react-native-threads",
-  "version": "0.0.17",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:joltup/react-native-threads.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "react-native",
-    "thread",
-    "workers",
-    "parallelism",
-    "concurrency",
-    "processing"
-  ],
-  "author": "Travis Nuttall",
-  "license": "MIT",
-  "files": [
-    "android/",
-    "ios/",
-    "js/",
-    "index.js"
-  ],
-  "peerDependencies": {
-    "react-native": ">=0.50.0"
-  }
+    "name": "fetch-thread-rn",
+    "version": "0.0.20",
+    "description": "",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sarath263/fetch-thread-rn.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react-native",
+        "thread",
+        "workers",
+        "parallelism",
+        "concurrency",
+        "processing"
+    ],
+    "author": "Travis Nuttall",
+    "license": "MIT",
+    "files": [
+        "android/",
+        "ios/",
+        "js/",
+        "index.js"
+    ],
+    "peerDependencies": {
+        "react-native": ">=0.50.0"
+    }
 }
