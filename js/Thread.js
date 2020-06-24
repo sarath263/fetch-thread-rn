@@ -6,6 +6,7 @@ import {
 const { ThreadManager } = NativeModules;
 
 export default class Thread {
+  
   constructor(jsPath) {
     if (!jsPath || !jsPath.endsWith('.js')) {
       throw new Error('Invalid path for thread. Only js files are supported');
@@ -19,6 +20,7 @@ export default class Thread {
         return id;
       })
       .catch(err => { throw new Error(err) });
+      
   }
 
   postMessage(message) {
@@ -29,3 +31,4 @@ export default class Thread {
     this.id.then(ThreadManager.stopThread);
   }
 }
+
